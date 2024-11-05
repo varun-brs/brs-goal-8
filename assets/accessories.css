@@ -1,0 +1,105 @@
+.bg-container {
+  padding-top: 40px;
+  padding-left: 45px;
+  padding-bottom: 40px;
+}
+
+.title {
+  font-family: "Titillium Web";
+  font-weight: bold;
+  margin-top: 35px;
+  text-align: center;
+  color: rgb(95, 95, 119);
+}
+
+.filter-container hr {
+  border-width: 3px;
+  width: 220px;
+}
+
+.label-ele {
+  font-family: "Titillium Web";
+  margin-left: 12px;
+}
+
+.filter-container p {
+  font-family: "Titillium Web";
+  margin-bottom: 18px;
+}
+
+.filter-container p:hover {
+  text-decoration: underline;
+  border-radius: 2px;
+}
+
+.card {
+  width: 250px;
+  height: 450px;
+  margin: 8px;
+}
+
+.name {
+  margin-top: 50px;
+  transition: 0.3s;
+}
+
+.card-img {
+  width: 100%;
+  object-fit: cover;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  .card-img {
+    transform: scale(1.09);
+  }
+
+  .name {
+    text-decoration: underline;
+  }
+}
+
+@media (min-width: 720px) {
+  .card {
+    width: 220px;
+  }
+}
+
+footer.newGrey {
+  background-color: #222222;
+  padding-top: 5em;
+}
+
+footer.newGrey .borderTop {
+  border-top: 1px solid rgba(211, 211, 211, 0.151);
+  padding: 2em 0;
+  font-size: 11px;
+}
+
+footer.newGrey p {
+  color: grey;
+}
+
+.btn-brand {
+  background-color: #03d;
+}
+
+.dropdown-content {
+  background-color: #0033dd;
+}
+
+.quickLinks h5 {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.quickLinks ul li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.quickLinks ul li a {
+  font-size: 1rem;
+  color: grey;
+}
